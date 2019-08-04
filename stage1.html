@@ -11,7 +11,7 @@
 </head>
 <body class="bg-light">
     <!-- menu -->
-    <header class="container-fluid p-0 m-0">
+    <header class="container-fluid p-0 m-0 fixed-top">
         <div id="header" class="row p-0 m-0 align-items-center justify-content-between">
             <div id="search" class="row p-0 m-0 col-6 align-items-center justify-content-start">
                 <div class="m-0 p-3 mx-1">
@@ -47,24 +47,24 @@
     <!-- menu end -->
 
     <!-- profile -->
-    <section id="profile" class="container-fluid m-0 p-0">
+    <section class="container-fluid my-5 p-0 pt-5">
         <div class="row justify-content-center">
             <div class="col-10">
                 <img src="roze.png" class="img-fluid" alt="Responsive image">
                 <div id="profileMenu" class="row p-0 m-0 align-items-center justify-content-end">
-                    <div class="h3 p-3 px-5 m-0 text-light border-right">Napisz wiadomość</div>
-                    <div class="h3 p-3 px-5 m-0 text-light border-right">Zdjęcia</div>
-                    <div class="h3 p-3 px-5 m-0 text-light border-right">Znajomi</div>
-                    <div class="h3 p-3 px-5 m-0 text-light">Więcej</div>
+                    <div class="h5 p-3 px-5 m-0 text-light border-right">Napisz wiadomość</div>
+                    <div class="h5 p-3 px-5 m-0 text-light border-right">Zdjęcia</div>
+                    <div class="h5 p-3 px-5 m-0 text-light border-right">Znajomi</div>
+                    <div class="h5 p-3 px-5 m-0 text-light">Więcej</div>
                     <div class="arrow-up"></div>
                 </div>
             </div>
             <div id="profileDisplay" class="row shadow align-items-center justify-content-left mr-auto p-0 bd-highlight rounded-pill">
                 <img id="profileFoto" src="profilfoto.png" class="img-fluid p-0 m-0 align-self-center rounded-pill" alt="Responsive image">
                 <div class="m-0 mb-3 p-0">
-                    <p class="h3 text-light p-0 m-0 my-3 pl-4">Kamila Wójcik</p>
-                    <p class="h3 text-light p-0 m-0 my-3 pl-4">Miasto: Olsztyn</p>
-                    <p class="h3 text-light p-0 m-0 my-3 pl-4">Znajomi: 738</p>
+                    <p class="h3 text-light p-0 m-0 my-3 pl-4 my-md-2 pl-md-3">Kamila Wójcik</p>
+                    <p class="h3 text-light p-0 m-0 my-3 pl-4 my-md-2 pl-md-3">Miasto: Olsztyn</p>
+                    <p class="h3 text-light p-0 m-0 my-3 pl-4 my-md-2 pl-md-3">Znajomi: 738</p>
                 </div>
             </div>
         </div>
@@ -81,25 +81,25 @@
                         <!-- card 1 -->
                         <div class="card mb-5">
                             <div class="row no-gutters align-items-end">
-                                <div class="col-9">
+                                <div class="col-xl-8 col-lg-7 col-md-6">
                                     <img src="profilfoto/profil1.jpg" class="card-img" alt="profil1">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="card-body mx-3">
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment1.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">WooooW!!</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment1.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">WooooW!!</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment2.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Piękna jak zwykle! :)</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment2.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Piękna jak zwykle! :)</span>
                                         </div>
                                         <div>
                                             <span class="text-secondary">Dodane: 3 miesiące temu</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 py-2 shadow">
-                                            <span class="h3 p-3 align-middle"><i class="far fa-heart align-middle"></i> 21</span>
-                                            <span class="h5 p-3 align-middle">Dodaj komentarz</span>
+                                        <div class="bgpil text-left rounded-pill my-2 py-2 shadow text-center">
+                                            <span class="h5 pr-2 align-middle"><i class="far fa-heart"></i> 21</span>
+                                            <span class="p-0 align-middle"> Dodaj komentarz</span>
                                         </div>
                                     </div>
                                 </div>
@@ -108,29 +108,29 @@
                         <!-- card 2 -->
                         <div class="card mb-5">
                             <div class="row no-gutters align-items-end">
-                                <div class="col-9">
+                                <div class="col-xl-8 col-lg-7 col-md-6">
                                     <img src="profilfoto/profil2.jpg" class="card-img" alt="profil2">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="card-body mx-3">
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment3.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Jak też chce :(</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment3.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Jak też chce :(</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment4.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Gdzie to?! xD</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment4.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Gdzie to?! xD</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment5.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Yabba Dabba Dooo!</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment5.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Yabba Dabba Dooo!</span>
                                         </div>
                                         <div>
                                             <span class="text-secondary">Dodane: 2 miesiące temu</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 py-2 shadow">
-                                            <span class="h3 p-3 align-middle"><i class="far fa-heart align-middle"></i> 14</span>
-                                            <span class="h5 p-3 align-middle">Dodaj komentarz</span>
+                                        <div class="bgpil text-left rounded-pill my-2 py-2 shadow text-center">
+                                            <span class="h5 pr-2 align-middle"><i class="far fa-heart align-middle"></i> 14</span>
+                                            <span class="p-0 align-middle">Dodaj komentarz</span>
                                         </div>
                                     </div>
                                 </div>
@@ -139,25 +139,25 @@
                         <!-- card 3 -->
                         <div class="card mb-5">
                             <div class="row no-gutters align-items-end">
-                                <div class="col-9">
+                                <div class="col-xl-8 col-lg-7 col-md-6">
                                     <img src="profilfoto/profil3.jpg" class="card-img" alt="profil3">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="card-body mx-3">
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment6.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">ooo Wojtuś!</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment6.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">ooo Wojtuś!</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment7.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Sto lat dla niego! :**</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment7.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Sto lat dla niego! :**</span>
                                         </div>
                                         <div>
                                             <span class="text-secondary">Dodane: 3 tygodnie temu</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 py-2 shadow">
-                                            <span class="h3 p-3 align-middle"><i class="far fa-heart align-middle"></i> 14</span>
-                                            <span class="h5 p-3 align-middle">Dodaj komentarz</span>
+                                        <div class="bgpil text-left rounded-pill my-2 py-2 shadow text-center">
+                                            <span class="h5 pr-2 align-middle"><i class="far fa-heart align-middle"></i> 14</span>
+                                            <span class="p-0 align-middle">Dodaj komentarz</span>
                                         </div>
                                     </div>
                                 </div>
@@ -166,30 +166,30 @@
                         <!-- card 4 -->
                         <div class="card mb-5">
                             <div class="row no-gutters align-items-end">
-                                <div class="col-9">
+                                <div class="col-xl-8 col-lg-7 col-md-6">
                                     <img src="profilfoto/profil4.jpg" class="card-img" alt="profil4">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="card-body mx-3">
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment8.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Nie mam słów ;></span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment8.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Nie mam słów ;></span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment9.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">:********</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment9.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">:********</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment10.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Świetny strój!</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment10.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Świetny strój!</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment11.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">Wracaj już kochana ;)))</span>
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment11.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">Wracaj już kochana ;)))</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 shadow">
-                                            <img src="profilfoto/comment12.jpg" class="img-fluid rounded-pill p-0 m-0" alt="Responsive image">
-                                            <span class="h5 p-3 align-middle">
+                                        <div class="bgpil text-left rounded-pill my-2 my-xl-3 shadow">
+                                            <img src="profilfoto/comment12.jpg" class="imgpil img-fluid rounded-pill p-0 m-0" alt="Responsive image">
+                                            <span class="p-1 align-middle">
                                                 <i class="fas fa-heart text-danger"></i>
                                                 <i class="fas fa-heart text-danger"></i>
                                                 <i class="fas fa-heart text-danger"></i>
@@ -200,9 +200,9 @@
                                         <div>
                                             <span class="text-secondary">Dodane: 2 tygodnie temu</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 py-2 shadow">
-                                            <span class="h3 p-3 align-middle"><i class="far fa-heart align-middle"></i> 36</span>
-                                            <span class="h5 p-3 align-middle">Dodaj komentarz</span>
+                                        <div class="bgpil text-left rounded-pill my-2 py-2 shadow text-center">
+                                            <span class="h5 pr-2 align-middle"><i class="far fa-heart align-middle"></i> 36</span>
+                                            <span class="p-0 align-middle">Dodaj komentarz</span>
                                         </div>
                                     </div>
                                 </div>
@@ -211,17 +211,17 @@
                         <!-- card 5 -->
                         <div class="card mb-5">
                             <div class="row no-gutters align-items-end">
-                                <div class="col-9">
+                                <div class="col-xl-8 col-lg-7 col-md-6">
                                     <img src="profilfoto/profil5.jpg" class="card-img" alt="profil5">
                                 </div>
-                                <div class="col-3">
+                                <div class="col-xl-4 col-lg-5 col-md-6">
                                     <div class="card-body mx-3">
                                         <div>
                                             <span class="text-secondary">Dodane: 5 minut temu</span>
                                         </div>
-                                        <div class="bgpil text-left rounded-pill my-3 py-2 shadow">
-                                            <span class="h3 p-3 align-middle"><i class="far fa-heart align-middle"></i> 0</span>
-                                            <span class="h5 p-3 align-middle">Dodaj komentarz</span>
+                                        <div class="bgpil text-left rounded-pill my-2 py-2 shadow text-center">
+                                            <span class="h5 pr-2 align-middle"><i class="far fa-heart align-middle"></i> 0</span>
+                                            <span class="p-0 align-middle">Dodaj komentarz</span>
                                         </div>
                                     </div>
                                 </div>

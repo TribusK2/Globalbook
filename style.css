@@ -1,7 +1,7 @@
 /* Header menu */
 #header {
     background-color: #91413E;
-    height: 92px;
+    height: 96px;
 }
 input {
     box-shadow: none !important;
@@ -35,11 +35,8 @@ input {
 /* Header menu end */
 
 /* User panel */
-#profile {
-    height: 480px;
-}
 #profileMenu {
-    height: 119px;
+    height: 100px;
     background-color: #91413E;
 }
 .arrow-up {
@@ -50,23 +47,62 @@ input {
     border-bottom: 25px solid #f9f9f9;
     position: absolute;
     bottom: 0px;
-    right: 475px;
-  }
-  #profileDisplay {
+    right: 410px;
+}
+#profileDisplay {
     background-color: #AB6F6C;
     height: 180px;
     width: 460px;
-    position: relative;
-    top: -220px;
-    left: 280px;
+    position: absolute;
+    top: 220px;
+    left: 13vw;
     border: 6px solid #f9f9f9;
-  }
-  #profileFoto {
+}
+#profileFoto {
     border: 6px solid #f9f9f9;
     position: relative;
     top: -6px;
     left: -6px;
-  }
+}
+@media only screen and (min-width: 1701px){
+    #profileDisplay {
+        top: 15vw;
+        left: 15vw;
+    }
+}
+@media only screen and (max-width: 1441px){
+    #profileDisplay {
+        height: 150px;
+        width: 350px;
+        left: 12vw;
+    }
+
+    #profileFoto {
+        height: 150px;
+        width: 150px;
+    }
+    #profileDisplay>div>p {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1301px){
+    #profileDisplay {
+        height: 120px;
+        width: 270px;
+    }
+    #profileFoto {
+        height: 120px;
+        width: 120px;
+    }
+    #profileDisplay>div>p {
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1201px){
+    #profileDisplay {
+        top: 15vw;
+    }
+}
 /* User panel end */
 
 /* Gallery */
@@ -76,4 +112,15 @@ input {
 .bgpil {
     background-color: #AB6F6C;
 }
+@media only screen and (max-width: 1441px){
+    .imgpil {
+    height: 45px;
+    } 
+}
+@media only screen and (max-width: 1201px){
+    .imgpil {
+    height: 30px;
+    } 
+}
+
 /* Gallery end */
