@@ -1,3 +1,8 @@
+/* General */
+.point {
+    cursor: pointer;
+}
+/* General end */
 /* Header menu */
 #header {
     background-color: #91413E;
