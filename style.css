@@ -1,3 +1,4 @@
+/* Header menu */
 #header {
     background-color: #91413E;
     height: 92px;
@@ -31,3 +32,42 @@ input {
     position: absolute;
     font-size: 12px;
 }
+/* Header menu end */
+
+/* User panel */
+#profileMenu {
+    height: 119px;
+    background-color: #91413E;
+}
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid #f9f9f9;
+    position: absolute;
+    bottom: 0px;
+    right: 475px;
+  }
+  #profileDisplay {
+    background-color: #AB6F6C;
+    height: 180px;
+    width: 460px;
+    position: relative;
+    top: -220px;
+    left: 280px;
+    border: 6px solid #f9f9f9;
+  }
+  #profileFoto {
+    border: 6px solid #f9f9f9;
+    position: relative;
+    top: -6px;
+    left: -6px;
+  }
+/* User panel end */
+
+/* Gallery */
+#gallery {
+    background-color: #AB6F6C;
+}
+/* Gallery end */
