@@ -1,0 +1,33 @@
+#header {
+    background-color: #91413E;
+    height: 92px;
+}
+input {
+    box-shadow: none !important;
+}
+#user{
+    background-color: #AB6F6C;
+    height: 60px;
+    width: 60px;
+}
+#bellGroup {
+    position: relative;
+}
+#bell {
+    position: absolute;
+    font-size: 30px;
+    top: -15px;
+}
+#checkGroup {
+    position: absolute;
+    top: -5px;
+    right: -18px;
+    width: 19px;
+    height: 19px;
+    background-color: #91413E;
+    z-index: 1;
+}
+#check {
+    position: absolute;
+    font-size: 12px;
+}
