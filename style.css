@@ -35,6 +35,9 @@ input {
 /* Header menu end */
 
 /* User panel */
+#profile {
+    height: 480px;
+}
 #profileMenu {
     height: 119px;
     background-color: #91413E;
@@ -68,6 +71,9 @@ input {
 
 /* Gallery */
 #gallery {
+    background-color: #AB6F6C;
+}
+.bgpil {
     background-color: #AB6F6C;
 }
 /* Gallery end */
