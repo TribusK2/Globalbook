@@ -1,3 +1,4 @@
+/*********************** Stage1 ***********************/
 /* General */
 .point {
     cursor: pointer;
@@ -129,3 +130,72 @@ input {
 }
 
 /* Gallery end */
+
+/*********************** Stage2 ***********************/
+
+.pil {
+    background-color: #AB6F6C;
+    border-radius: 60px;
+}
+.pil2 {
+    border-radius: 75px;
+    max-height: 400px;
+}
+#checkGroup2 {
+    position: absolute;
+    top: -5px;
+    right: -18px;
+    width: 19px;
+    height: 19px;
+    background-color: #AB6F6C;
+    z-index: 1;
+}
+.mirror {
+    transform: scale(-1, 1);
+}
+#firstPill {
+    height: 650px;
+}
+#secondPill {
+    height: 33%;
+}
+#nextPill {
+    height: 63%;
+}
+#line {
+    border-color: #AB6F6C;
+}
+.light {
+    background-color: rgba(171, 112, 109, 0.377);
+}
+.iColor {
+    color: #AB6F6C;
+}
+.friend {
+    position: relative;
+    width: 100%;
+}
+.plus {
+    background-color: #AB6F6C;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+.plusText {
+    font-size: 70px;
+    position: absolute;
+    top: -25px;
+}
+.carContainer {
+    position: relative;
+    width: 100%;
+}
+.price {
+    position: absolute;
+    bottom: 10%;
+    background-color: rgba(171, 111, 108, 0.596);
+    border-radius: 10px;
+}

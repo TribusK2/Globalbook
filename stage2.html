@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Globalbook - Slow</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5fd9d787ae.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <!-- menu -->
+    <header class="container-fluid p-0 m-0 fixed-top">
+        <div id="header" class="row p-0 m-0 align-items-center justify-content-between">
+            <div id="search" class="row p-0 m-0 col-6 align-items-center justify-content-start">
+                <div class="m-0 p-3 mx-1">
+                    <h1 class="h2 m-0 p-1 text-light point">Globalbook</h1>
+                </div>
+                <div class="m-0 p-0 px-3 mx-1 bg-white col-6 rounded-pill input-group">
+                    <input type="text" placeholder="Szukaj" class="form-control bg-white border-0 font-weight-bolder">
+                    <div class="input-group-append">
+                        <span class="input-group-text bg-white border-0 point" id="basic-addon2"><i class="fas fa-search"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div id="nav" class="row p-0 m-0 col-4 text-light align-items-center justify-content-center">
+                <div id="user" class="row m-0 p-0 rounded-pill align-items-center justify-content-center point">
+                    <i class="fas fa-user fa-2x text-light p-0 m-0"></i>
+                </div>
+                <div class="h4 m-0 p-2 mx-3 pr-4 border-right point">Slow</div>
+                <div id="bellGroup" class="row p-0 m-0 point">
+                   <i id="bell" class="far fa-bell"></i>
+                   <div id="checkGroup" class="row rounded-pill align-items-center justify-content-center">
+                       <i id="check" class="fas fa-check-circle rounded-pill p-0 m-0"></i>
+                   </div> 
+                </div>
+                <div class="row m-0 ml-5 p-0 point">
+                    <i class="far fa-envelope-open fa-2x"></i>
+                </div>
+                <div class="row m-0 mx-4 p-0 point">
+                    <i class="fas fa-bars fa-2x"></i>
+                </div>
+            </div>
+        </div>   
+    </header>
+    <!-- menu end -->
+
+    <!-- profile -->
+    <section class="container-fluid my-5 p-0 pt-5">
+        <div class="row justify-content-center my-5 text-light">
+
+            <!-- first pill -->
+            <div id="firstPill" class="col-2 pil mx-2">
+                <div class="row ml-4 my-5 justify-content-left">
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                        <div id="bellGroup" class="row p-0 m-0 point">
+                            <i id="bell" class="far fa-bell"></i>
+                            <div id="checkGroup2" class="row rounded-pill align-items-center justify-content-center">
+                                <i id="check" class="fas fa-check-circle rounded-pill p-0 m-0"></i>
+                            </div>
+                        </div>
+                        <span class="h5 ml-5">Aktualności</span>
+                    </div>
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                        <i class="far fa-envelope-open fa-2x"></i>
+                        <span class="h5 ml-3">Wiadomości</span>
+                    </div>
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                            <i class="fas fa-shopping-cart fa-2x mirror"></i>
+                        <span class="h5 ml-3">Sklep</span>
+                    </div>
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                            <i class="fas fa-user fa-2x"></i>
+                        <span class="h5 ml-4">Grupy</span>
+                    </div>
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                            <i class="far fa-play-circle fa-2x"></i>
+                        <span class="h5 ml-3">Oglądaj</span>
+                    </div>
+                    <div class="row col-12 my-4 px-0 align-items-center justify-content-left">
+                            <i class="fas fa-paper-plane fa-2x"></i>
+                        <span class="h5 ml-3">Strony</span>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- first pill end -->
+
+            <!-- second pill -->
+            <div class="row col-6 mx-2 justify-content-center">
+                <div id="secondPill" class="row col-12 pil align-self-start justify-content-center">
+                    <div class="row col-11 pil bg-light align-self-center justify-content-center">
+                        <div id="user" class="row mx-3 mt-4 p-0 rounded-pill align-items-center justify-content-center point float-left">
+                            <i class="fas fa-user fa-2x text-light p-0 m-0"></i>
+                        </div>
+                        <span class="col text-dark mt-4 p-0 align-self-center">Co u Ciebie Slow?</span>
+                        <hr id="line" class="col-10 bg-dark mb-0">
+                        <div class="row col-11 text-center text-dark mt-0">
+                            <div class="col pil light my-2 mr-1 p-0"><i class="fas fa-camera iColor mr-2"></i>Dodaj zdjęcie</div>
+                            <div class="col pil light my-2 mx-1 p-0"><i class="far fa-play-circle iColor mr-2"></i>Dodaj film</div>
+                            <div class="col pil light my-2 ml-1 p-0"><i class="far fa-grin iColor mr-2"></i>Dodaj nastrój</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="nextPill" class="row col-12 m-0 p-0 pil align-self-end align-items-center justify-content-center">
+                    <div class="row col-12 justify-content-between">
+                        <div class="row friend col-4 justify-content-center p-0 ml-1">
+                            <div class="row plus justify-content-center">
+                                <span class="h1 plusText font-weight-lighter text-light m-auto p-auto">+</span>
+                            </div>
+                            <img src="friends/friend1.jpg" class="img-fluid p-3 pil2" alt="Responsive image">
+                        </div>
+                        <div class="row friend col-4 justify-content-center p-0">
+                            <div class="row plus justify-content-center">
+                                <span class="h1 plusText font-weight-lighter text-light m-auto p-auto">+</span>
+                            </div>
+                            <img src="friends/friend2.jpg" class="img-fluid p-3 pil2" alt="Responsive image">
+                        </div>
+                        <div class="row friend col-4 justify-content-center p-0 mr-1">
+                            <div class="row plus justify-content-center">
+                                <span class="h1 plusText font-weight-lighter text-light m-auto p-auto">+</span>
+                            </div>
+                            <img src="friends/friend3.jpg" class="img-fluid p-3 pil2" alt="Responsive image">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- second pill end -->
+
+            <!-- third pill -->
+            <div class="col-3 pil p-0 m-0">
+                <div class="row col align-items-center m-0 justify-content-center my-4">
+                    <i class="fas fa-shopping-cart fa-2x mirror"></i>
+                    <span class="h5 ml-3">Ogłoszenia</span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car1.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">210 000 zł</div>
+                    </div>
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car2.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">130 000 zł</div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car3.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">350 000 zł</div>
+                    </div>
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car4.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">610 000 zł</div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car5.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">420 000 zł</div>
+                    </div>
+                    <div class="row col-6 justify-content-center carContainer">
+                        <img src="cars/car6.jpg" class="img-fluid p-2" alt="Responsive image">
+                        <div class="text-center price py-1 px-2 m-0">199 000 zł</div>
+                    </div>
+                </div>
+            </div>
+            <!-- third pill end -->
+            
+        </div>
+    </section>
+    <!-- profile end -->
+    
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
