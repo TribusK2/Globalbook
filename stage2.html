@@ -18,8 +18,8 @@
                     <h1 class="h2 m-0 p-1 text-light point">Globalbook</h1>
                 </div>
                 <div class="m-0 p-0 px-3 mx-1 bg-white col-6 rounded-pill input-group">
-                    <input type="text" placeholder="Szukaj" class="form-control bg-white border-0 font-weight-bolder">
-                    <div class="input-group-append">
+                    <input id="inputText" type="text" placeholder="Szukaj" class="form-control bg-white border-0 font-weight-bolder">
+                    <div id="inputBtn" class="input-group-append">
                         <span class="input-group-text bg-white border-0 point" id="basic-addon2"><i class="fas fa-search"></i></span>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
     <!-- menu end -->
 
     <!-- profile -->
-    <section class="container-fluid my-5 p-0 pt-5" style="display: none">
+    <section id="profilePage" class="container-fluid my-5 p-0 pt-5">
         <div class="row justify-content-center my-5 text-light">
 
             <!-- first pill -->
@@ -173,10 +173,18 @@
     </section>
     <!-- profile end -->
     
+    <!-- loader -->
+    <div id="loaderPage" style="display: none;">
+        <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+             <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- loader end -->
+
     <!-- gallery -->
-    <section class="container-fluid my-5 p-0 pt-5" style="display: block">
+    <section id="galleryPage" class="container-fluid mt-5 p-0 pt-5" style="display: none">
         <div class="row justify-content-center">
-            <div class="row col-10 wraperGallery m-5 p-5">
+            <div class="row col-10 wraperGallery mt-5 p-5">
                 <div class="row justify-content-center mx-1">
                     <!-- pic 1 -->
                     <div class="row col-3 justify-content-center container m-3">
@@ -291,6 +299,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="stage2.js"></script>
 </body>
 </html>

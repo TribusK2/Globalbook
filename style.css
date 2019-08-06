@@ -3,6 +3,13 @@
 .point {
     cursor: pointer;
 }
+#loaderPage{
+    position: relative;
+    text-align: center;
+    top: 45vh;
+    color: #91413E;
+    height: 60vh;
+}
 /* General end */
 /* Header menu */
 #header {
