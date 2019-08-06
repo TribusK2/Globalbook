@@ -247,7 +247,7 @@ input {
     border-radius: 50px;
     position: fixed;
     right: 100px;
-    bottom: -35%;
+    bottom: -55%;
     transition: bottom 1s;
 }
 .chatClose {
