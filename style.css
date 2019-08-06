@@ -133,6 +133,7 @@ input {
 
 /*********************** Stage2 ***********************/
 
+/* First panel */
 .pil {
     background-color: #AB6F6C;
     border-radius: 60px;
@@ -171,7 +172,7 @@ input {
 .iColor {
     color: #AB6F6C;
 }
-.friend {
+.friend .pic {
     position: relative;
     width: 100%;
 }
@@ -189,7 +190,7 @@ input {
     position: absolute;
     top: -25px;
 }
-.carContainer {
+.Container {
     position: relative;
     width: 100%;
 }
@@ -199,3 +200,34 @@ input {
     background-color: rgba(171, 111, 108, 0.596);
     border-radius: 10px;
 }
+/* First panel end */
+
+/* Gallery */
+.wraperGallery {
+    background-color: #AB6F6C;
+}
+.picText {
+    position: absolute;
+    top: 6%;
+    background-color: rgba(171, 111, 108, 0.8);
+    border-radius: 10px;
+}
+.picPlus {
+    background-color: #AB6F6C;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    right: 39%;
+    bottom: 5%;
+}
+.picMessage {
+    background-color: #AB6F6C;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    position: absolute;
+    right: 16%;
+    bottom: 5%;
+}
+/* Gallery end */
