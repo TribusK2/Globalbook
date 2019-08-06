@@ -238,3 +238,42 @@ input {
     bottom: 5%;
 }
 /* Gallery end */
+
+/* Chat */
+#chatWindow {
+    width: 550px;
+    height: 280px;
+    border: 15px solid #91413E;
+    border-radius: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: -35%;
+    transition: bottom 1s;
+}
+.chatClose {
+    background-color: #f9f9f9;
+    color: #AB6F6C;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: absolute;
+    right: 7%;
+    top: -5%;
+    line-height: 0.9em;
+}
+.chatPhone {
+    background-color: #AB6F6C;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: absolute;
+    right: 17%;
+    top: -5%;
+}
+.chatBox {
+    height: 140px;
+}
+.chatPic {
+    border-radius: 30px;
+}
+/* Chat end */
