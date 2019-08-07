@@ -27,6 +27,7 @@ $(document).ready(function(){
     // chatting
     var chating = function(){
         var inputChat = $('#inputChat').val();
+        $('#inputChat').val('');
         var kamilaWritingDeley = 3000;
         var kamilaAnswerDeley = 3000;
         var kamilaText = 'Cześć :)';

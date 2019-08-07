@@ -207,6 +207,15 @@ input {
     background-color: rgba(171, 111, 108, 0.596);
     border-radius: 10px;
 }
+@media only screen and (min-width: 1441px){
+    #firstPill {
+        height: 850px;
+        padding: 0px 0px 0px 40px;
+    }
+    #secondPillInside {
+        height: 70%;
+    }
+}
 /* First panel end */
 
 /* Gallery */
@@ -236,6 +245,12 @@ input {
     position: absolute;
     right: 16%;
     bottom: 5%;
+}
+@media only screen and (min-width: 1601px){
+    .images {
+        margin: 50px !important;
+
+    }
 }
 /* Gallery end */
 
