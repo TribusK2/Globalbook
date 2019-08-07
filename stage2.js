@@ -49,4 +49,16 @@ $(document).ready(function(){
         };
     });
     // chatting end
+
+    // close chat
+    var closeChat = function(){
+        $('#chatWindow').css('bottom', '-55%');
+        $('#slowChating').fadeOut(200);
+        $('#kamilaChating').fadeOut(200);
+        $('#slowText').html('');
+        $('#kamilaText').html('...');
+        $('#kamilaTime').html('');
+    };
+    $('.chatClose').click(closeChat);
+    // close chat end
 });
