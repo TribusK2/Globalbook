@@ -37,24 +37,35 @@ $(document).ready(function(){
         };
     });
 
-    var kamilaChating = function(){
-        $('#kamilaChating').fadeIn(200);
-    };
+    var kamilaText;
     var kamilaAnswer = function(){
-        $('#kamilaChating').fadeOut(100, function(){
-            var kamilaText = 'Cześć :)';
-            var kamilaTime = '22:30';
+        kamilaText = 'Cześć :)';
+        var kamilaTime = '22:30';
+        $('#kamilaText').html(kamilaText);
+        $('#kamilaTime').html(kamilaTime);
+    };
+    var kamilaChating = function(){
+        kamilaText = ".";
+        $('#kamilaText').html(kamilaText);
+        $('#kamilaChating').fadeIn(200);
+        var dotAnimation = setInterval(function(){
+            var dot = ".";
+            kamilaText += dot;
+            if (kamilaText === '.....'){
+                kamilaText ='.';
+            };
             $('#kamilaText').html(kamilaText);
-            $('#kamilaTime').html(kamilaTime);
-            $('#kamilaChating').fadeIn(100);
+        }, 300);
+        $(window).on('keyup', function (e) {
+            if (e.keyCode == 39) {
+                clearInterval(dotAnimation);
+                kamilaAnswer();
+            };
         });
     };
     $(window).on('keyup', function (e) {
         if (e.keyCode == 38) {
             kamilaChating();
-        };
-        if (e.keyCode == 39) {
-            kamilaAnswer();
         };
     });
     // chatting end
@@ -65,7 +76,7 @@ $(document).ready(function(){
         $('#slowChating').fadeOut(200);
         $('#kamilaChating').fadeOut(200);
         $('#slowText').html('');
-        $('#kamilaText').html('...');
+        $('#kamilaText').html('');
         $('#kamilaTime').html('');
     };
     $('.chatClose').click(closeChat);
