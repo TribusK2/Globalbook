@@ -25,27 +25,36 @@ $(document).ready(function(){
     // open chat end
 
     // chatting
-    var chating = function(){
+    var slowChating = function(){
         var inputChat = $('#inputChat').val();
         $('#inputChat').val('');
-        var kamilaWritingDeley = 3000;
-        var kamilaAnswerDeley = 3000;
-        var kamilaText = 'Cześć :)';
-        var kamilaTime = '13:18';
         $('#slowText').html(inputChat);
-        $('#slowChating').fadeIn(100, function(){
-            $('#kamilaChating').delay(kamilaWritingDeley).fadeIn(200, function(){
-                $('.show').delay(kamilaAnswerDeley).fadeOut(100, function(){
-                    $('#kamilaText').html(kamilaText);
-                    $('#kamilaTime').html(kamilaTime);
-                    $('.show').fadeIn(100);
-                });  
-            });
-        });
+        $('#slowChating').fadeIn(100); 
     };
     $('#inputChat').on('keyup', function (e) {
         if (e.keyCode == 13) {
-            chating();
+            slowChating();
+        };
+    });
+
+    var kamilaChating = function(){
+        $('#kamilaChating').fadeIn(200);
+    };
+    var kamilaAnswer = function(){
+        $('#kamilaChating').fadeOut(100, function(){
+            var kamilaText = 'Cześć :)';
+            var kamilaTime = '22:30';
+            $('#kamilaText').html(kamilaText);
+            $('#kamilaTime').html(kamilaTime);
+            $('#kamilaChating').fadeIn(100);
+        });
+    };
+    $(window).on('keyup', function (e) {
+        if (e.keyCode == 38) {
+            kamilaChating();
+        };
+        if (e.keyCode == 39) {
+            kamilaAnswer();
         };
     });
     // chatting end
